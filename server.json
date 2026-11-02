@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.sckian/sckian",
+  "title": "Sckian",
+  "description": "AI job matching in your assistant: ranked offers, tailored resumes, application tracking.",
+  "version": "1.0.0",
+  "websiteUrl": "https://sckian.com/agents",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://sckian.com/mcp" }
+  ]
+}
